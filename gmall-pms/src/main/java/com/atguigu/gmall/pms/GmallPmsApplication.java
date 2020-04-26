@@ -13,6 +13,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 1）、导jar包
  * 2）、导日志配置
  * 3）、在kibana里面建立好日志的索引，就可以可视化检索
+ *
+ * 给内存中存一个值。另外一个类获取出来用
  */
 @EnableDubbo
 @MapperScan(basePackages = "com.atguigu.gmall.pms.mapper")
